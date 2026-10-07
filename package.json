@@ -1,0 +1,20 @@
+{
+  "name": "vit-lost-found",
+  "version": "1.0.0",
+  "description": "VIT Campus Lost & Found Recovery Portal",
+  "main": "server.js",
+  "scripts": {
+    "db:init": "node db/init.js",
+    "db:seed": "node db/init.js --seed",
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.7.1",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
